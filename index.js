@@ -129,7 +129,6 @@ function winner() {
 function draw(){
   if (turn===9) {
       $(".play").text("Game Over, Draw!!");
-      alert("draw")
     }
     else {
       turn++
