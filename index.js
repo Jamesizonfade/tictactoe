@@ -140,10 +140,10 @@ function winner() {
   $("body").addClass("game-over");
   $(".game-reset").css(`visibility`,`visible`)
   if (turn%2!==0){
-    $(".play").text("X wins.");
+    $(".play").text("Game Over. X wins!!");
   }
   else {
-   $(".play").text("0 wins.");
+   $(".play").text("Game Over. O wins!!");
   }
   $('.boxes').click(function () {
     location.reload(true);
